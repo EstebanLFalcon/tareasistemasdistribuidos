@@ -2,14 +2,22 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails analysistool: test" uuid="31d95c93-29ff-453a-be41-6f74f1298e1d">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <first-sync>true</first-sync>
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
+      <introspection-scope>db/test:public,pg_catalog,postgres</introspection-scope>
+      <resolve-scope>db/test:public,postgres</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: development" uuid="ad0c3049-fd97-4211-b274-fdc062a55e46">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <first-sync>true</first-sync>
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
+      <introspection-scope>db/development:public,pg_catalog,postgres</introspection-scope>
+      <resolve-scope>db/development:public,postgres</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: production" uuid="df331f53-db51-47fb-b64f-2398015c4de7">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
