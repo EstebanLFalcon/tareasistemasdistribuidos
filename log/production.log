@@ -246,3 +246,4 @@ F, [2016-10-27T17:37:32.374441 #11548] FATAL -- :
 F, [2016-10-27T17:37:32.374441 #11548] FATAL -- : ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: locations: SELECT "locations".* FROM "locations"):
 F, [2016-10-27T17:37:32.374942 #11548] FATAL -- :   
 F, [2016-10-27T17:37:32.374942 #11548] FATAL -- : app/controllers/locations_controller.rb:7:in `index'
+I, [2016-10-27T20:37:24.716443 #11004]  INFO -- : Migrating to CreateLocations (20120927210553)
