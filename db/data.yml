@@ -1,0 +1,68 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2016-10-28 02:11:13.165107'
+    - '2016-10-28 02:11:13.165107'
+
+---
+locations:
+  columns:
+  - id
+  - latitude
+  - longitude
+  - name
+  - description
+  records: 
+  - - 2
+    - 31.825408
+    - -116.59421
+    - Ciudad Deportiva
+    - 'NULL'
+  - - 8
+    - 31.871267
+    - -116.662703
+    - CICESE
+    - 'NULL'
+  - - 9
+    - 31.872079
+    - -116.619798
+    - Central de Autobuses
+    - 'NULL'
+  - - 10
+    - 31.867423
+    - -116.62351
+    - Central Transportes Vigia
+    - 'NULL'
+  - - 11
+    - 31.865525
+    - -116.623006
+    - Central Transportes Brisa
+    - 'NULL'
+  - - 12
+    - 31.824622
+    - -116.600218
+    - Hospital General
+    - 'NULL'
+  - - 13
+    - 31.82134
+    - -116.600261
+    - Walmart
+    - 'NULL'
+  - - 14
+    - 31.817894
+    - -116.596892
+    - Costco
+    - 'NULL'
+  - - 15
+    - 31.854973
+    - -116.616038
+    - Casa
+    - 'NULL'

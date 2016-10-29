@@ -35,6 +35,8 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 
+gem 'yaml_db'
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # group :doc do

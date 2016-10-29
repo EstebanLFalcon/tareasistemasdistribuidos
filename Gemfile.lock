@@ -141,6 +141,9 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    yaml_db (0.4.2)
+      rails (>= 3.0, < 5.1)
+      rake (>= 0.8.7)
 
 PLATFORMS
   x64-mingw32
@@ -158,6 +161,7 @@ DEPENDENCIES
   therubyracer
   tzinfo-data
   uglifier
+  yaml_db
 
 BUNDLED WITH
    1.13.6

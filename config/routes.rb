@@ -13,7 +13,6 @@ Analysistool::Application.routes.draw do
     get 'convex_hull' => :convex_hull
     get 'visited_locations' => :visited_locations
     post 'visited_locations' => :visited_locations
-    get '/' => :locations
   end
 
   resources :locations do
