@@ -27,13 +27,12 @@ test:
   password: postgre
 
 production:
-  encoding: utf8
-  pool: 15
 #  adapter: postgresql
-#  database: db/production
+  host: ec2-54-235-208-104.compute-1.amazonaws.com
+  database: d29tqecf589g78
+  user: wvznfjqezfipyw
+  password: jpi7BIg_OUqvm_4viwOGL7VkbN
 #  pool: 5
 #  timeout: 5000
 #  host: ENV['DATABASE_URL']
 #  port: 5432
-#  user: postgres
-#  password: postgre
