@@ -27,7 +27,7 @@ test:
   password: postgre
 
 production:
-#  adapter: postgresql
+  adapter: postgresql
   host: ec2-54-235-208-104.compute-1.amazonaws.com
   database: d29tqecf589g78
   user: wvznfjqezfipyw
@@ -35,4 +35,4 @@ production:
 #  pool: 5
 #  timeout: 5000
 #  host: ENV['DATABASE_URL']
-#  port: 5432
+  port: 5432

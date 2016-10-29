@@ -24,7 +24,7 @@
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <user-name>postgres</user-name>
+      <user-name>wvznfjqezfipyw</user-name>
       <introspection-scope>db/production:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>db/production:postgres,public</resolve-scope>
     </data-source>
