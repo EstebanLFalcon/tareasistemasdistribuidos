@@ -2966,3 +2966,8 @@ I, [2016-10-28T18:28:10.268772 #2872]  INFO -- : Processing by LocationsControll
 I, [2016-10-28T18:28:10.272774 #2872]  INFO -- :   Rendering locations/index.html.haml within layouts/application
 I, [2016-10-28T18:28:10.276778 #2872]  INFO -- :   Rendered locations/index.html.haml within layouts/application (4.0ms)
 I, [2016-10-28T18:28:10.278780 #2872]  INFO -- : Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+I, [2016-10-28T18:30:05.188497 #2872]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-10-28 18:30:05 -0700
+I, [2016-10-28T18:30:05.189498 #2872]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-10-28T18:30:05.194501 #2872]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-10-28T18:30:05.199504 #2872]  INFO -- :   Rendered locations/index.html.haml within layouts/application (4.0ms)
+I, [2016-10-28T18:30:05.200508 #2872]  INFO -- : Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 0.0ms)

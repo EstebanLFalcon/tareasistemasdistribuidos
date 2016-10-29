@@ -17,8 +17,8 @@
     <schema id="5" parent="1" name="public">
       <object-id>2200</object-id>
       <visible>1</visible>
-      <introspection-state-number>567</introspection-state-number>
-      <introspection-timestamp>2016-10-27.20:37:52.987</introspection-timestamp>
+      <introspection-state-number>574</introspection-state-number>
+      <introspection-timestamp>2016-10-28.19:51:51.320</introspection-timestamp>
     </schema>
     <schema id="6" parent="1" name="pg_catalog">
       <object-id>11</object-id>
@@ -36,16 +36,16 @@
       <object-id>12113</object-id>
     </schema>
     <sequence id="11" parent="5" name="locations_id_seq">
-      <object-id>16439</object-id>
-      <state-number>567</state-number>
+      <object-id>16461</object-id>
+      <state-number>573</state-number>
     </sequence>
     <table id="12" parent="5" name="ar_internal_metadata">
       <object-id>16431</object-id>
-      <state-number>566</state-number>
+      <state-number>574</state-number>
     </table>
     <table id="13" parent="5" name="locations">
-      <object-id>16441</object-id>
-      <state-number>567</state-number>
+      <object-id>16463</object-id>
+      <state-number>574</state-number>
     </table>
     <table id="14" parent="5" name="schema_migrations">
       <object-id>16423</object-id>
@@ -83,37 +83,37 @@
       <primary>1</primary>
     </key>
     <column id="21" parent="13" name="id">
-      <state-number>567</state-number>
+      <state-number>573</state-number>
       <mandatory>1</mandatory>
       <data-type>integer|0</data-type>
       <default-expression>nextval(&apos;locations_id_seq&apos;::regclass)</default-expression>
     </column>
     <column id="22" parent="13" name="latitude">
-      <state-number>567</state-number>
+      <state-number>573</state-number>
       <mandatory>1</mandatory>
       <data-type>double precision|0</data-type>
     </column>
     <column id="23" parent="13" name="longitude">
-      <state-number>567</state-number>
+      <state-number>573</state-number>
       <mandatory>1</mandatory>
       <data-type>double precision|0</data-type>
     </column>
     <column id="24" parent="13" name="name">
-      <state-number>567</state-number>
+      <state-number>573</state-number>
       <data-type>varchar|0</data-type>
     </column>
     <column id="25" parent="13" name="description">
-      <state-number>567</state-number>
+      <state-number>573</state-number>
       <data-type>varchar|0</data-type>
     </column>
     <index id="26" parent="13" name="locations_pkey">
-      <object-id>16448</object-id>
+      <object-id>16470</object-id>
       <columns>id</columns>
       <desc-columns></desc-columns>
       <unique>1</unique>
     </index>
     <key id="27" parent="13" name="locations_pkey">
-      <object-id>16449</object-id>
+      <object-id>16471</object-id>
       <columns>id</columns>
       <underlying-index>locations_pkey</underlying-index>
       <primary>1</primary>

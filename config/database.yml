@@ -31,7 +31,7 @@ production:
   database: db/production
   pool: 5
   timeout: 5000
-  host: localhost
-  port: 5432
-  user: postgres
-  password: postgre
+#  host: ENV['DATABASE_URL']
+#  port: 5432
+#  user: postgres
+#  password: postgre
