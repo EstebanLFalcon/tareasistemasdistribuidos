@@ -2706,3 +2706,133 @@ F, [2016-10-28T18:02:13.779751 #13080] FATAL -- : rack (2.0.1) lib/rack/handler/
 F, [2016-10-28T18:02:13.779751 #13080] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
 F, [2016-10-28T18:02:13.779751 #13080] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
 F, [2016-10-28T18:02:13.779751 #13080] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-10-28T18:22:59.752399 #2872]  INFO -- : Started GET "/assets/rails.png" for 127.0.0.1 at 2016-10-28 18:22:59 -0700
+F, [2016-10-28T18:22:59.754400 #2872] FATAL -- :   
+F, [2016-10-28T18:22:59.754400 #2872] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+F, [2016-10-28T18:22:59.754400 #2872] FATAL -- :   
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-10-28T18:22:59.754900 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-10-28T18:22:59.755401 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-10-28T18:23:03.199797 #2872]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+I, [2016-10-28T18:23:03.200811 #2872]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-10-28T18:23:03.372437 #2872]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-10-28T18:23:03.390450 #2872]  INFO -- :   Rendered locations/index.html.haml within layouts/application (18.0ms)
+I, [2016-10-28T18:23:03.391451 #2872]  INFO -- : Completed 200 OK in 191ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+I, [2016-10-28T18:23:03.559225 #2872]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+I, [2016-10-28T18:23:03.559725 #2872]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-10-28T18:23:03.570735 #2872]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-10-28T18:23:03.573738 #2872]  INFO -- :   Rendered locations/index.html.haml within layouts/application (3.0ms)
+I, [2016-10-28T18:23:03.573738 #2872]  INFO -- : Completed 200 OK in 14ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+I, [2016-10-28T18:23:03.642786 #2872]  INFO -- : Started GET "/assets/maps/OpenLayers.js" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+F, [2016-10-28T18:23:03.643788 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.643788 #2872] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/maps/OpenLayers.js"):
+F, [2016-10-28T18:23:03.643788 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.643788 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-10-28T18:23:03.643788 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-10-28T18:23:03.644788 #2872] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-10-28T18:23:03.645292 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-10-28T18:23:03.669812 #2872]  INFO -- : Started GET "/assets/maps/locations.js" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/maps/locations.js"):
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-10-28T18:23:03.670813 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-10-28T18:23:03.671813 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-10-28T18:23:03.818761 #2872]  INFO -- : Started GET "/assets/maps/OpenLayers.js" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/maps/OpenLayers.js"):
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-10-28T18:23:03.819763 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-10-28T18:23:03.820763 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-10-28T18:23:03.856280 #2872]  INFO -- : Started GET "/assets/maps/locations.js" for 127.0.0.1 at 2016-10-28 18:23:03 -0700
+F, [2016-10-28T18:23:03.856767 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.856767 #2872] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/maps/locations.js"):
+F, [2016-10-28T18:23:03.856767 #2872] FATAL -- :   
+F, [2016-10-28T18:23:03.856767 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-10-28T18:23:03.857268 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-10-28T18:23:03.857268 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-10-28T18:23:03.857268 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-10-28T18:23:03.857268 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-10-28T18:23:03.857268 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-10-28T18:23:03.857778 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-10-28T18:23:03.857778 #2872] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-10-28T18:23:03.857778 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-10-28T18:23:03.857778 #2872] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-10-28T18:23:03.857778 #2872] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-10-28T18:23:03.858268 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-10-28T18:23:03.858769 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-10-28T18:23:03.858769 #2872] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
