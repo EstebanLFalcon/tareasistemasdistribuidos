@@ -11,24 +11,27 @@
     <database id="3" name="db/development">
       <object-id>16393</object-id>
     </database>
-    <schema id="4" parent="1" name="public">
+    <database id="4" name="db/production">
+      <object-id>16422</object-id>
+    </database>
+    <schema id="5" parent="1" name="public">
       <object-id>2200</object-id>
       <visible>1</visible>
-      <introspection-timestamp>2016-10-27.20:18:40.517</introspection-timestamp>
+      <introspection-timestamp>2016-10-28.17:06:06.919</introspection-timestamp>
     </schema>
-    <schema id="5" parent="1" name="pg_catalog">
+    <schema id="6" parent="1" name="pg_catalog">
       <object-id>11</object-id>
     </schema>
-    <schema id="6" parent="1" name="pg_toast">
+    <schema id="7" parent="1" name="pg_toast">
       <object-id>99</object-id>
     </schema>
-    <schema id="7" parent="1" name="pg_temp_1">
+    <schema id="8" parent="1" name="pg_temp_1">
       <object-id>11848</object-id>
     </schema>
-    <schema id="8" parent="1" name="pg_toast_temp_1">
+    <schema id="9" parent="1" name="pg_toast_temp_1">
       <object-id>11849</object-id>
     </schema>
-    <schema id="9" parent="1" name="information_schema">
+    <schema id="10" parent="1" name="information_schema">
       <object-id>12113</object-id>
     </schema>
   </database-model>

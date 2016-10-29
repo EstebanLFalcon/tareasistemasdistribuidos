@@ -7,8 +7,8 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
-      <introspection-scope>db/test:public,pg_catalog,postgres</introspection-scope>
-      <resolve-scope>db/test:public,postgres</resolve-scope>
+      <introspection-scope>db/test:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>db/test:postgres,public</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: development" uuid="ad0c3049-fd97-4211-b274-fdc062a55e46">
       <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -16,8 +16,8 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
-      <introspection-scope>db/development:public,pg_catalog,postgres</introspection-scope>
-      <resolve-scope>db/development:public,postgres</resolve-scope>
+      <introspection-scope>db/development:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>db/development:postgres,public</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: production" uuid="df331f53-db51-47fb-b64f-2398015c4de7">
       <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -25,8 +25,8 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
-      <introspection-scope>db/production:public,pg_catalog,postgres</introspection-scope>
-      <resolve-scope>db/production:public,postgres</resolve-scope>
+      <introspection-scope>db/production:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>db/production:postgres,public</resolve-scope>
     </data-source>
   </component>
 </project>
