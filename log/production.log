@@ -2971,3 +2971,37 @@ I, [2016-10-28T18:30:05.189498 #2872]  INFO -- : Processing by LocationsControll
 I, [2016-10-28T18:30:05.194501 #2872]  INFO -- :   Rendering locations/index.html.haml within layouts/application
 I, [2016-10-28T18:30:05.199504 #2872]  INFO -- :   Rendered locations/index.html.haml within layouts/application (4.0ms)
 I, [2016-10-28T18:30:05.200508 #2872]  INFO -- : Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+I, [2016-11-04T15:19:56.420643 #18672]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-11-04 15:19:56 -0700
+I, [2016-11-04T15:19:56.420643 #18672]  INFO -- : Started GET "/assets/rails.png" for 127.0.0.1 at 2016-11-04 15:19:56 -0700
+I, [2016-11-04T15:19:56.421148 #18672]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-11-04 15:19:56 -0700
+I, [2016-11-04T15:19:56.448696 #18672]  INFO -- : Processing by LocationsController#index as HTML
+F, [2016-11-04T15:19:56.449685 #18672] FATAL -- :   
+I, [2016-11-04T15:19:56.450186 #18672]  INFO -- : Processing by LocationsController#index as HTML
+F, [2016-11-04T15:19:56.452185 #18672] FATAL -- : ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+F, [2016-11-04T15:19:56.452185 #18672] FATAL -- :   
+F, [2016-11-04T15:19:56.452721 #18672] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+F, [2016-11-04T15:19:56.452721 #18672] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+F, [2016-11-04T15:19:56.452721 #18672] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+F, [2016-11-04T15:19:56.453187 #18672] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+F, [2016-11-04T15:19:56.453187 #18672] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+F, [2016-11-04T15:19:56.453187 #18672] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+F, [2016-11-04T15:19:56.453187 #18672] FATAL -- : activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+F, [2016-11-04T15:19:56.453187 #18672] FATAL -- : railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+F, [2016-11-04T15:19:56.453697 #18672] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+F, [2016-11-04T15:19:56.453697 #18672] FATAL -- : rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+F, [2016-11-04T15:19:56.453697 #18672] FATAL -- : rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+F, [2016-11-04T15:19:56.454206 #18672] FATAL -- : activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+F, [2016-11-04T15:19:56.454206 #18672] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+F, [2016-11-04T15:19:56.454206 #18672] FATAL -- : actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+F, [2016-11-04T15:19:56.454206 #18672] FATAL -- : rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+F, [2016-11-04T15:19:56.454206 #18672] FATAL -- : railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+F, [2016-11-04T15:19:56.454691 #18672] FATAL -- : rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+F, [2016-11-04T15:19:56.454691 #18672] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+F, [2016-11-04T15:19:56.454691 #18672] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+F, [2016-11-04T15:19:56.454691 #18672] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+I, [2016-11-04T15:19:56.916242 #18672]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-11-04T15:19:56.916746 #18672]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-11-04T15:19:56.959611 #18672]  INFO -- :   Rendered locations/index.html.haml within layouts/application (28.5ms)
+I, [2016-11-04T15:19:56.961614 #18672]  INFO -- :   Rendered locations/index.html.haml within layouts/application (39.4ms)
+I, [2016-11-04T15:19:56.971623 #18672]  INFO -- : Completed 200 OK in 521ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-04T15:19:56.973622 #18672]  INFO -- : Completed 200 OK in 521ms (Views: 70.4ms | ActiveRecord: 0.0ms)

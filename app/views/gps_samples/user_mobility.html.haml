@@ -1,0 +1,25 @@
+%h1.title Show visited locations
+
+= form_tag user_mobility_path, multipart: true do
+
+  = label :user_name, 'User name'
+  = text_field_tag :user_name
+
+  = label :sample, 'Samples'
+  = file_field_tag :sample, :accept => '.json', :class => 'upload'
+
+  %p
+  = submit_tag 'Get user mobility'
+
+%input#locations{type: 'hidden', value: @locations_json}
+
+.map
+  %div#map
+%p
+= link_to 'Back to location list', locations_path
+
+= javascript_include_tag '/assets/maps/OpenLayers'
+= javascript_include_tag '/assets/maps/locations'
+
+:javascript
+  initMap($("#locations").val());

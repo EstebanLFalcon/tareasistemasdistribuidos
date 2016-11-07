@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20120927210553) do
+ActiveRecord::Schema.define(version: 20161104213515) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "gps_samples", force: :cascade do |t|
+    t.float   "latitude",    null: false
+    t.float   "longitude",   null: false
+    t.string  "name"
+    t.string  "description"
+    t.integer "users_id"
+    t.index ["users_id"], name: "index_gps_samples_on_users_id", using: :btree
+  end
 
   create_table "locations", force: :cascade do |t|
     t.float  "latitude",    null: false
@@ -22,4 +31,9 @@ ActiveRecord::Schema.define(version: 20120927210553) do
     t.string "description"
   end
 
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+  end
+
+  add_foreign_key "gps_samples", "users", column: "users_id"
 end

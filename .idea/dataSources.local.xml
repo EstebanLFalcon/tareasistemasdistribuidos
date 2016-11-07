@@ -7,7 +7,6 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
-      <introspection-scope>db/test:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>db/test:postgres,public</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: development" uuid="ad0c3049-fd97-4211-b274-fdc062a55e46">
@@ -16,7 +15,6 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
-      <introspection-scope>db/development:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>db/development:postgres,public</resolve-scope>
     </data-source>
     <data-source name="Rails analysistool: production" uuid="df331f53-db51-47fb-b64f-2398015c4de7">
@@ -25,7 +23,6 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>wvznfjqezfipyw</user-name>
-      <introspection-scope>db/production:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>db/production:postgres,public</resolve-scope>
     </data-source>
   </component>

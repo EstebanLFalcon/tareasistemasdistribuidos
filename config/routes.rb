@@ -15,6 +15,11 @@ Analysistool::Application.routes.draw do
     post 'visited_locations' => :visited_locations
   end
 
+  scope path: '/gps_samples', controller: :gps_samples do
+    get 'user_mobility' => :user_mobility
+    post 'user_mobility' => :post_user_mobility
+  end
+
   resources :locations do
     collection do
       get :destroy_all
