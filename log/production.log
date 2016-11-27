@@ -3005,3 +3005,30 @@ I, [2016-11-04T15:19:56.959611 #18672]  INFO -- :   Rendered locations/index.htm
 I, [2016-11-04T15:19:56.961614 #18672]  INFO -- :   Rendered locations/index.html.haml within layouts/application (39.4ms)
 I, [2016-11-04T15:19:56.971623 #18672]  INFO -- : Completed 200 OK in 521ms (Views: 94.7ms | ActiveRecord: 0.0ms)
 I, [2016-11-04T15:19:56.973622 #18672]  INFO -- : Completed 200 OK in 521ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+I, [2016-11-06T22:44:47.080670 #14076]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-11-06 22:44:47 -0800
+I, [2016-11-06T22:44:47.083172 #14076]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-11-06T22:44:47.149508 #14076]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-11-06 22:44:47 -0800
+I, [2016-11-06T22:44:47.150504 #14076]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-11-06T22:44:47.289799 #14076]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-11-06T22:44:47.305275 #14076]  INFO -- :   Rendered locations/index.html.haml within layouts/application (15.0ms)
+I, [2016-11-06T22:44:47.307277 #14076]  INFO -- : Completed 200 OK in 224ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-06T22:44:47.325288 #14076]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-11-06T22:44:47.327790 #14076]  INFO -- :   Rendered locations/index.html.haml within layouts/application (2.5ms)
+I, [2016-11-06T22:44:47.328791 #14076]  INFO -- : Completed 200 OK in 178ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+I, [2016-11-06T22:45:12.531867 #14076]  INFO -- : Started GET "/gps_samples/user_mobility" for 127.0.0.1 at 2016-11-06 22:45:12 -0800
+I, [2016-11-06T22:45:12.533367 #14076]  INFO -- : Processing by GpsSamplesController#user_mobility as HTML
+I, [2016-11-06T22:45:12.560886 #14076]  INFO -- :   Rendering gps_samples/user_mobility.html.haml within layouts/application
+I, [2016-11-06T22:45:12.568391 #14076]  INFO -- :   Rendered gps_samples/user_mobility.html.haml within layouts/application (6.5ms)
+I, [2016-11-06T22:45:12.568897 #14076]  INFO -- : Completed 200 OK in 36ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+I, [2016-11-06T22:45:22.178395 #14076]  INFO -- : Started POST "/gps_samples/user_mobility" for 127.0.0.1 at 2016-11-06 22:45:22 -0800
+I, [2016-11-06T22:45:22.178903 #14076]  INFO -- : Processing by GpsSamplesController#post_user_mobility as HTML
+I, [2016-11-06T22:45:22.179401 #14076]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ldP1+hcN0TnmIRdJbZmNlf9Dj8+GddTZTqfRxyl50TlOTdUQ7al2h9WAseG+wbtU+KEXfabxFRTuoZPrVcMExw==", "user_name"=>"Esteban", "commit"=>"Get user mobility"}
+I, [2016-11-06T22:45:22.958379 #14076]  INFO -- :   Rendering gps_samples/user_mobility.html.haml within layouts/application
+I, [2016-11-06T22:45:22.960381 #14076]  INFO -- :   Rendered gps_samples/user_mobility.html.haml within layouts/application (1.5ms)
+I, [2016-11-06T22:45:22.960882 #14076]  INFO -- : Completed 200 OK in 781ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+I, [2016-11-06T22:45:29.850277 #14076]  INFO -- : Started POST "/gps_samples/user_mobility" for 127.0.0.1 at 2016-11-06 22:45:29 -0800
+I, [2016-11-06T22:45:29.850777 #14076]  INFO -- : Processing by GpsSamplesController#post_user_mobility as HTML
+I, [2016-11-06T22:45:29.851261 #14076]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"oq26LidhEloA+DgAxeVeb6vY2XsrRpSIFfiFgT1IIhV5M5rE3cW15DNZnqgWvWiurDpByQvCVUW1/setQfL36w==", "user_name"=>"Esteban", "sample"=>#<ActionDispatch::Http::UploadedFile:0x000000053b02b8 @tempfile=#<Tempfile:C:/Users/esteban/AppData/Local/Temp/RackMultipart20161106-14076-niozjl.json>, @original_filename="user1_gps.json", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sample\"; filename=\"user1_gps.json\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"Get user mobility"}
+I, [2016-11-06T22:45:43.244688 #14076]  INFO -- :   Rendering gps_samples/user_mobility.html.haml within layouts/application
+I, [2016-11-06T22:45:43.247691 #14076]  INFO -- :   Rendered gps_samples/user_mobility.html.haml within layouts/application (2.5ms)
+I, [2016-11-06T22:45:43.248190 #14076]  INFO -- : Completed 200 OK in 13397ms (Views: 3.7ms | ActiveRecord: 0.0ms)
