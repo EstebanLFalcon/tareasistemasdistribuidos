@@ -3061,3 +3061,8 @@ F, [2016-11-27T01:42:40.301995 #13052] FATAL -- : C:/Ruby23-x64/lib/ruby/2.3.0/w
 I, [2016-11-27T01:42:40.518138 #13052]  INFO -- :   Rendering locations/index.html.haml within layouts/application
 I, [2016-11-27T01:42:40.542155 #13052]  INFO -- :   Rendered locations/index.html.haml within layouts/application (24.0ms)
 I, [2016-11-27T01:42:40.544156 #13052]  INFO -- : Completed 200 OK in 245ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-27T02:19:05.762328 #13052]  INFO -- : Started GET "/locations" for 127.0.0.1 at 2016-11-27 02:19:05 -0800
+I, [2016-11-27T02:19:05.790830 #13052]  INFO -- : Processing by LocationsController#index as HTML
+I, [2016-11-27T02:19:05.890506 #13052]  INFO -- :   Rendering locations/index.html.haml within layouts/application
+I, [2016-11-27T02:19:05.901014 #13052]  INFO -- :   Rendered locations/index.html.haml within layouts/application (9.0ms)
+I, [2016-11-27T02:19:05.902515 #13052]  INFO -- : Completed 200 OK in 112ms (Views: 14.5ms | ActiveRecord: 0.0ms)
